@@ -1,15 +1,17 @@
 import React from "react";
-import Navigationbar from "./Navigationbar.jsx";
+import {Provider} from "react-redux";
 import {Outlet} from "react-router-dom";
+import Nagivationbar from "./Nagivationbar";
+import store from "../Store/store";
 
 const RootLayout = () => {
   return (
-    <>
-      <Navigationbar />
+    < Provider store={store}>
+     <Nagivationbar />
       <main>
         <Outlet />
       </main>
-    </>
+    </Provider>
   );
 };
 

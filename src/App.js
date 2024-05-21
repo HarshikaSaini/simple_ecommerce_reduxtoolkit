@@ -1,5 +1,5 @@
 import './App.css';
-import "bootstrap/dist/css/bootstrap.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 import {createBrowserRouter, createRoutesFromElements,RouterProvider,Route} from "react-router-dom"
 import RootLayout from './components/RootLayout.jsx';
 import Dashboard from './components/Dashboard.jsx';

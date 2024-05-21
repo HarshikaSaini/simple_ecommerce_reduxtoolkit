@@ -3,7 +3,7 @@ import Products from "./Products"
 const Dashboard = () => {
   return (
     <>
-    <div> Product Dashboard</div>
+    
     <Products />
     </>
   )
